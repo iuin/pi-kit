@@ -5,6 +5,13 @@
 格式基于 [Keep a Changelog](https://keepachangelog.com/zh-CN/)，
 版本号遵循 [语义化版本](https://semver.org/lang/zh-CN/)。
 
+## [0.10.0] - 2026-09-10
+
+### Changed
+
+- **repo**：仓库迁移至 `iuin/pi-kit`——README 的安装/试用/更新/卸载地址、`package.json` 的 author/repository/homepage、LICENSE 版权人与 CHANGELOG 历史条目里的仓库地址一并更新；LICENSE 与 README 保留原始版权声明（本项目源自 [asiazhang/pi-kit](https://github.com/asiazhang/pi-kit)，MIT）
+- **extension**：模型目录复核（2026-09-10，实测网关）——`deepseek-v4.1-flash-ioa` 与 `deepseek-v4-pro-ioa` 均正常应答；`deepseek-v4.1-pro-ioa` / `deepseek-v5-flash-ioa` / `deepseek-v4.2-flash-ioa` 返回 `11102 model service info not found`，故不纳入目录；`deepseek-v4.1-flash`（无 `-ioa` 后缀）实为 `deepseek-v4.1-flash-ioa` 的网关别名，与既有的旧名 `deepseek-v4-flash-ioa` 一样不单独设条目
+
 ## [0.9.0] - 2026-09-10
 
 ### Added
