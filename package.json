@@ -1,0 +1,31 @@
+{
+	"name": "pi-kit",
+	"version": "0.9.0",
+	"description": "pi coding agent provider extension for the Tencent CodeBuddy OpenAI-compatible gateway (copilot.tencent.com)",
+	"keywords": [
+		"pi-package"
+	],
+	"license": "MIT",
+	"peerDependencies": {
+		"@earendil-works/pi-coding-agent": "*"
+	},
+	"devDependencies": {
+		"@biomejs/biome": "^2.5.9",
+		"@earendil-works/pi-ai": "0.84.2",
+		"@earendil-works/pi-tui": "^0.84.2",
+		"@types/bun": "^1.4.0",
+		"typescript": "^5.7.0"
+	},
+	"pi": {
+		"extensions": [
+			"./extensions/index.ts"
+		]
+	},
+	"scripts": {
+		"typecheck": "tsc --noEmit",
+		"lint": "biome check .",
+		"lint:fix": "biome check --write .",
+		"test": "bun test",
+		"footer-preview": "node scripts/footer-preview.mjs"
+	}
+}
