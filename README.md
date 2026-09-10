@@ -11,13 +11,13 @@
 ## 安装
 
 ```sh
-pi install git:github.com/asiazhang/pi-kit
+pi install git:github.com/iuin/pi-kit
 ```
 
 或临时试用（不写入设置）：
 
 ```sh
-pi -e git:github.com/asiazhang/pi-kit
+pi -e git:github.com/iuin/pi-kit
 ```
 
 ## 配置 API key
@@ -35,7 +35,7 @@ pi -e git:github.com/asiazhang/pi-kit
 更新已安装的扩展包（拉取远程最新代码）：
 
 ```sh
-pi update --extension git:github.com/asiazhang/pi-kit
+pi update --extension git:github.com/iuin/pi-kit
 ```
 
 或一次性更新所有已安装的扩展包：
@@ -44,9 +44,9 @@ pi update --extension git:github.com/asiazhang/pi-kit
 pi update --extensions
 ```
 
-更新后重启 pi 会话生效。卸载用 `pi remove git:github.com/asiazhang/pi-kit`。
+更新后重启 pi 会话生效。卸载用 `pi remove git:github.com/iuin/pi-kit`。
 
-> 注意：本包曾用名 `pi-codebuddy-kit`，旧仓库地址 `git:github.com/asiazhang/pi-codebuddy-kit` 已停用，请改用新地址。
+> 注意：本包曾用名 `pi-codebuddy-kit`，旧仓库地址已停用，请统一使用上方的 `git:github.com/iuin/pi-kit`。
 
 ## 使用
 

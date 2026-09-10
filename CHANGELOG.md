@@ -24,7 +24,7 @@
 
 ### Changed
 
-- **package**：重命名为 `pi-kit`（npm 包名 + GitHub 仓库地址 `git:github.com/asiazhang/pi-kit`），旧名 `pi-codebuddy-kit` 停用；README 安装/更新/卸载命令同步更新
+- **package**：重命名为 `pi-kit`（npm 包名 + GitHub 仓库地址 `git:github.com/iuin/pi-kit`），旧名 `pi-codebuddy-kit` 停用；README 安装/更新/卸载命令同步更新
 
 ## [0.7.1] - 2026-09-01
 
