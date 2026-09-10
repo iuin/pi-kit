@@ -6,6 +6,12 @@
 		"pi-package"
 	],
 	"license": "MIT",
+	"author": "iuin",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/iuin/pi-kit.git"
+	},
+	"homepage": "https://github.com/iuin/pi-kit",
 	"peerDependencies": {
 		"@earendil-works/pi-coding-agent": "*"
 	},

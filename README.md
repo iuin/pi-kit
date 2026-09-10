@@ -113,4 +113,4 @@ PI_THEME=light npm run footer-preview
 
 ## License
 
-MIT
+MIT。本项目源自 [asiazhang/pi-kit](https://github.com/asiazhang/pi-kit)（MIT），当前由 `iuin` 维护。
